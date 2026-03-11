@@ -16,108 +16,110 @@ body { font-family: 'Inter', sans-serif; overflow-x: hidden; }
 </head>
 <body class="bg-gray-50">
 
-<div class="bg-navy text-white py-2 px-4">
-<div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center text-[10px] md:text-xs space-y-2 md:space-y-0">
-<div class="flex flex-wrap justify-center gap-4 text-center">
-<span class="flex items-center">📍 Attiégou Sokpanou, Lomé, Togo</span>
-<span class="flex items-center">📧 Davidkoami46@gmail.com</span>
+<div class="bg-navy text-white text-[10px] md:text-xs py-2 px-4">
+<div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center space-y-2 md:space-y-0 text-center md:text-left">
+<div class="flex flex-col md:flex-row md:space-x-6 space-y-1 md:space-y-0">
+<span>📍 Attiégou Sokpanou, Lomé, Togo</span>
+<a href="mailto:Davidkoami46@gmail.com" class="hover:text-accent">📧 Davidkoami46@gmail.com</a>
 </div>
-<div class="flex items-center font-bold text-accent">
-📞 +228 92599913 / 97645426
+<div class="flex space-x-4 font-bold text-accent">
+<a href="tel:+22892599913" class="hover:underline">📞 +228 92599913</a>
+<a href="https://wa.me/22897645426" target="_blank" class="hover:underline text-green-400">💬 WhatsApp</a>
 </div>
 </div>
 </div>
 
 <nav class="bg-white shadow-lg sticky top-0 z-50">
-<div class="max-w-7xl mx-auto px-4 py-3">
-<div class="flex justify-between items-center space-x-2">
-<img src="IMG_7128.jpeg" alt="Logo" class="h-10 md:h-16 w-auto object-contain">
+<div class="max-w-7xl mx-auto px-4">
+<div class="flex flex-col md:flex-row justify-between items-center py-4 md:h-24">
 
-<div class="h-10 w-[1px] bg-gray-200"></div>
-
-<div class="flex flex-col text-center">
+<div class="flex items-center space-x-3 md:space-x-4 mb-4 md:mb-0">
+<img src="IMG_7128.jpeg" alt="Logo" class="h-10 md:h-16 w-auto">
+<div class="h-10 md:h-12 w-[1px] bg-gray-200"></div>
+<div class="flex items-center space-x-2 md:space-x-3">
+<div class="flex flex-col text-left">
 <span class="text-lg md:text-2xl font-extrabold text-gray-900 leading-none">DK TRANSIT</span>
 <span class="text-[7px] md:text-[10px] font-bold text-red-800 uppercase mt-1">COMMISSIONNAIRE AGREÉ EN DOUANES</span>
 </div>
-
-<div class="h-10 w-[1px] bg-gray-200"></div>
-
-<img src="img_b.png" alt="Bateau" class="h-10 md:h-14 w-auto object-contain">
+<img src="img_b.png" alt="Bateau" class="h-10 md:h-12 w-auto">
+</div>
 </div>
 
-<div class="flex justify-center space-x-8 mt-4 pt-2 border-t border-gray-100 md:border-none md:mt-0 text-gray-800 font-bold text-[11px] md:text-sm">
-<a href="#" class="hover:text-accent uppercase">Accueil</a>
-<a href="#services" class="hover:text-accent uppercase">Services</a>
-<a href="#contact" class="hover:text-accent uppercase">Contact</a>
+<div class="flex items-center space-x-6 md:space-x-8 text-gray-800 font-bold text-[10px] md:text-sm border-t md:border-none pt-3 md:pt-0 w-full md:w-auto justify-center uppercase">
+<a href="#" class="hover:text-accent">Accueil</a>
+<a href="#services" class="hover:text-accent">Services</a>
+<a href="#contact" class="hover:text-accent">Contact</a>
+</div>
 </div>
 </div>
 </nav>
 
-<header class="relative h-[300px] md:h-[500px] overflow-hidden">
+<header class="relative h-[300px] md:h-[450px] overflow-hidden">
 <div class="relative h-full bg-black">
 <img src="https://www.togo-port.net/wp-content/uploads/2018/02/port-autonome-lome.jpg" class="w-full h-full object-cover opacity-50">
-<div class="absolute inset-0 flex items-center px-6">
-<div class="max-w-7xl mx-auto text-white text-center md:text-left">
-<h1 class="text-3xl md:text-6xl font-extrabold mb-4 uppercase">Import & <span class="text-accent">Export</span></h1>
-<p class="text-sm md:text-xl max-w-lg opacity-90">Solutions de transport fiables et expertise douanière pour toute l'Afrique de l'Ouest.</p>
+<div class="absolute inset-0 flex items-center px-6 md:px-8 text-center md:text-left">
+<div class="max-w-7xl mx-auto text-white">
+<h1 class="text-3xl md:text-5xl font-extrabold mb-4 uppercase">Transit Douanier au <span class="text-accent">Togo</span></h1>
+<p class="text-sm md:text-lg opacity-90">Simplifiez vos imports-exports avec DK Transit au Port de Lomé.</p>
 </div>
 </div>
 </div>
 </header>
 
-<section id="services" class="py-16 px-6">
-<div class="max-w-7xl mx-auto">
-<h2 class="text-navy text-3xl font-extrabold mb-12 text-center uppercase tracking-tight">NOS SOLUTIONS <span class="text-accent">LOGISTIQUES</span></h2>
-<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-<div class="p-8 border-t-4 border-accent rounded-xl shadow-md bg-white">
-<h3 class="text-xl font-bold mb-4 text-navy uppercase">Dédouanement</h3>
-<p class="text-gray-600 text-sm leading-relaxed">Enlèvement rapide de vos marchandises et formalités administratives complètes au Port Autonome de Lomé.</p>
+<section id="services" class="py-12 md:py-20 px-6">
+<div class="max-w-7xl mx-auto text-center">
+<h2 class="text-navy text-2xl md:text-4xl font-extrabold mb-8 md:mb-12 uppercase">NOS SOLUTIONS <span class="text-accent">LOGISTIQUES</span></h2>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-10">
+<div class="p-6 md:p-8 border border-gray-100 rounded-2xl shadow-sm bg-white border-b-4 border-b-accent">
+<h3 class="text-lg md:text-xl font-bold mb-4 uppercase">Dédouanement</h3>
+<p class="text-gray-600 text-sm">Enlèvement rapide de vos marchandises au Port de Lomé.</p>
 </div>
-<div class="p-8 border-t-4 border-navy rounded-xl shadow-md bg-white">
-<h3 class="text-xl font-bold mb-4 text-navy uppercase">Fret Maritime</h3>
-<p class="text-gray-600 text-sm leading-relaxed">Gestion de vos conteneurs (FCL/LCL), véhicules et groupages avec un suivi rigoureux.</p>
+<div class="p-6 md:p-8 border border-gray-100 rounded-2xl shadow-sm bg-white border-b-4 border-b-navy">
+<h3 class="text-lg md:text-xl font-bold mb-4 uppercase">Fret Maritime</h3>
+<p class="text-gray-600 text-sm">Transport de conteneurs et groupage international.</p>
 </div>
-<div class="p-8 border-t-4 border-red-700 rounded-xl shadow-md bg-white">
-<h3 class="text-xl font-bold mb-4 text-navy uppercase">Hinterland</h3>
-<p class="text-gray-600 text-sm leading-relaxed">Transit sécurisé et livraison vers les pays de l'Hinterland : Burkina Faso, Mali et Niger.</p>
+<div class="p-6 md:p-8 border border-gray-100 rounded-2xl shadow-sm bg-white border-b-4 border-b-red-700">
+<h3 class="text-lg md:text-xl font-bold mb-4 uppercase">Hinterland</h3>
+<p class="text-gray-600 text-sm">Livraison vers le Burkina Faso, le Mali et le Niger.</p>
 </div>
 </div>
 </div>
 </section>
 
-<footer id="contact" class="bg-gray-900 text-white py-12 px-6">
+<footer id="contact" class="bg-black text-white py-12 px-6">
 <div class="max-w-7xl mx-auto flex flex-col items-center">
-<div class="flex items-center space-x-4 mb-8">
-<img src="IMG_7128.jpeg" class="h-10 w-auto brightness-110">
+<div class="flex items-center space-x-3 mb-8">
+<img src="IMG_7128.jpeg" class="h-10 w-auto brightness-125">
 <div class="text-left">
-<div class="font-bold text-xl tracking-wider">DK TRANSIT</div>
+<div class="font-bold text-lg uppercase tracking-wider">DK TRANSIT</div>
 <div class="text-[8px] uppercase text-gray-400">Commissionnaire Agréé en Douanes</div>
 </div>
-<img src="img_b.png" class="h-8 w-auto">
+<img src="img_b.png" class="h-8 w-auto brightness-150">
 </div>
 
-<div class="grid grid-cols-1 md:grid-cols-3 gap-8 w-full border-t border-gray-800 pt-10 text-center">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8 w-full text-center border-t border-gray-800 pt-8">
 <div>
-<h4 class="text-accent font-bold mb-3 uppercase text-sm italic underline">📍 Localisation</h4>
-<p class="text-gray-300 text-sm">Attiégou Sokpanou,<br>Lomé, Togo</p>
+<h4 class="text-accent font-bold uppercase mb-4 underline">Localisation</h4>
+<p class="text-sm">Attiégou Sokpanou,<br>Lomé, Togo</p>
 </div>
 <div>
-<h4 class="text-accent font-bold mb-3 uppercase text-sm italic underline">📞 Contact Direct</h4>
-<p class="text-gray-300 text-sm">+228 92 59 99 13</p>
-<p class="text-gray-300 text-sm">+228 97 64 54 26</p>
+<h4 class="text-accent font-bold uppercase mb-4 underline">Appelez-nous</h4>
+<p class="text-sm hover:text-white"><a href="tel:+22892599913">📞 +228 92 59 99 13</a></p>
+<p class="text-sm hover:text-white mt-1"><a href="tel:+22897645426">📞 +228 97 64 54 26</a></p>
 </div>
 <div>
-<h4 class="text-accent font-bold mb-3 uppercase text-sm italic underline">📧 Email</h4>
-<p class="text-gray-300 text-sm">Davidkoami46@gmail.com</p>
+<h4 class="text-accent font-bold uppercase mb-4 underline">Écrivez-nous</h4>
+<p class="text-sm"><a href="https://wa.me/22897645426" class="bg-green-600 px-4 py-1 rounded-full text-white inline-block mt-1">WhatsApp</a></p>
+<p class="text-sm mt-2"><a href="mailto:Davidkoami46@gmail.com">Davidkoami46@gmail.com</a></p>
 </div>
 </div>
 
-<p class="mt-12 text-[10px] text-gray-600 uppercase tracking-[0.2em]">
-© 2026 DK Transit Douanes. Rapidité • Fiabilité • Sécurité
-</p>
+<p class="text-[10px] text-gray-600 uppercase mt-12">© 2026 DK Transit Douanes. Tous droits réservés.</p>
 </div>
 </footer>
 
 </body>
 </html>
+
+
 
